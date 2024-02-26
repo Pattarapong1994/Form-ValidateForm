@@ -58,6 +58,9 @@ const updateProfile = async () => {
   await (new Promise(resolve => setTimeout(resolve, 2000)))
   isLoading.value = false
   isUpdated.value = true
+  await (new Promise(resolve => setTimeout(resolve, 2000)))
+  isUpdated.value = false
+
 }
 
 </script>
